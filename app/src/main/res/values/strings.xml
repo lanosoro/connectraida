@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">connectraida</string>
+    <string name="started_title">hello pooler</string>
+    <string name="started_subtitle">Nice to see you here, <br><b>Login</b> or
+        <b>Sign Up</b> </br> to join our community</string>
+    <string name="illustration_img">Onboarding logo</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_reg_pooler">Pooler</string>
+    <string name="btn_reg_rider">Driver</string>
+
 </resources>

@@ -11,13 +11,58 @@
         android:id ="@+id/tv_started_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello User"
+        android:text="@string/started_title"
         tools:ignore="HardcodedText,MissingConstraints"
         android:fontFamily="@font/montserrat"
-        android:fontSize="36dp">
+        android:textSize="26sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
 
+
+    <TextView
+        android:id="@+id/tv_started_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/montserrat"
+        android:lineHeight="25sp"
+        android:text="@string/started_subtitle"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_started_title" >
     </TextView>
+
+    <ImageView
+        android:id="@+id/illustration"
+        android:layout_width="342dp"
+        android:layout_height="291dp"
+        android:layout_marginTop="108dp"
+        android:src="@drawable/taxi_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_started_subtitle"
+        android:contentDescription="@strings/illustration_img" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_register"
+        android:layout_marginTop="100dp"
+        style="@style/buttonLight"
+        app:layout_constraintTop_toBottomOf="@id/illustration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
