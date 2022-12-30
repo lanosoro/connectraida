@@ -3,23 +3,38 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
 
     >
-    <Button
+<!--    <TextView-->
+<!--        android:id="@+id/tv_started_subtitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:fontFamily="@font/montserrat"-->
+<!--        android:lineHeight="25sp"-->
+<!--        android:text="@string/started_subtitle"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="14dp"-->
+<!--        >-->
+<!--    </TextView>-->
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Btn_Pooler_reg"
 
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         style="@style/buttonDark"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:text="@string/btn_reg_pooler"/>
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Btn_Driver_reg"
         android:layout_width="200dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
         style="@style/buttonDark"
         android:text="@string/btn_reg_rider"/>
 

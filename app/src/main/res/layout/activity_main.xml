@@ -20,6 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+
         />
 
 
@@ -43,7 +44,7 @@
         android:id="@+id/illustration"
         android:layout_width="342dp"
         android:layout_height="291dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="70dp"
         android:src="@drawable/taxi_app"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +56,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btn_register"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
+        style="@style/buttonLight"
+        app:layout_constraintTop_toBottomOf="@id/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_login"
+        android:layout_marginTop="70dp"
         style="@style/buttonLight"
         app:layout_constraintTop_toBottomOf="@id/illustration"
         app:layout_constraintEnd_toEndOf="parent"

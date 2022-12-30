@@ -15,6 +15,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
         val bottomSheetFragment  = BottomSheetFragment()
         binding.signup.setOnClickListener { bottomSheetFragment.show(supportFragmentManager,"Signup bottomsheet") }
-
+        binding.login.setOnClickListener {  }
         }
     }

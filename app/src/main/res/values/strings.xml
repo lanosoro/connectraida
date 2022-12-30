@@ -7,5 +7,6 @@
     <string name="btn_register">Register</string>
     <string name="btn_reg_pooler">Pooler</string>
     <string name="btn_reg_rider">Driver</string>
+    <string name="btn_login">Login</string>
 
 </resources>
