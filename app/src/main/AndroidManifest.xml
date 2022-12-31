@@ -9,6 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Connectraida">
+
+        <activity
+            android:name="co.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="co.DriverSignActivity"
+            android:exported="false" />
+        <activity
+            android:name="co.SignupActivity"
+            android:exported="false" />
         <activity
             android:name="co.LoginActivity"
             android:exported="false" />

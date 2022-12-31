@@ -4,8 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import co.LoginActivity
+//import co.LoginActivity
 import co.ke.tonyoa.connectraida.databinding.ActivityMainBinding
 import co.ke.tonyoa.connectraida.databinding.BottomsheetFragBinding
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -20,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         val bottomSheetFragment  = BottomSheetFragment()
         binding.signup.setOnClickListener { bottomSheetFragment.show(supportFragmentManager,"Signup bottomsheet") }
         binding.login.setOnClickListener {
-            val Intent = Intent(this,LoginActivity::class.java)
+            val Intent = Intent(this, LoginActivity::class.java)
             startActivity(Intent)
         }
 
