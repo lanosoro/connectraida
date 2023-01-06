@@ -9,7 +9,8 @@
     <string name="btn_reg_rider">Driver</string>
     <string name="btn_login">Login</string>
     <string name="btn_next">Next</string>
-
+    <string name="driver_particulars">Driver Particulars</string>
+    <string name="pooler_particulars">Pooler Particulars</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_username">Name</string>

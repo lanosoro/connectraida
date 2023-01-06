@@ -98,7 +98,7 @@
         app:layout_constraintTop_toBottomOf="@+id/confirm_pass" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/login"
+        android:id="@+id/Next_Pooler"
         style="@style/buttonDark"
         android:layout_width="235dp"
         android:layout_height="46dp"
