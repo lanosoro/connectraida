@@ -31,5 +31,82 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tit_signin"
         />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="196dp"
+        android:hint="@string/prompt_email"
+        android:inputType="textEmailAddress"
+        style="@style/textInput"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/username_sign"
+        style="@style/textInput"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:hint="@string/prompt_username"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <EditText
+        android:id="@+id/confirm_pass"
+        style="@style/textInput"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:hint="@string/prompt_password"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_sign" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:hint="@string/prompt_conf_password"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        style="@style/textInput"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_pass" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        style="@style/buttonDark"
+        android:layout_width="235dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/btn_next"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

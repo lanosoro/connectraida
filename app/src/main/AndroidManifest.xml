@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Connectraida">
-
+        <activity
+            android:name="co.DriverParticularsActivity"
+            android:exported="false" />
+        <activity
+            android:name="co.PooleParticularsActivity"
+            android:exported="false" />
+        <activity
+            android:name="co.ke.PoolerParticularsActivity"
+            android:exported="false" />
         <activity
             android:name="co.HomeActivity"
             android:exported="false" />

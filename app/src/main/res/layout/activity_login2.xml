@@ -14,7 +14,7 @@
     <EditText
         android:id="@+id/username"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="46dp"
         android:layout_marginTop="196dp"
         android:hint="@string/prompt_email"
         android:inputType="textEmailAddress"
@@ -29,7 +29,7 @@
     <EditText
         android:id="@+id/password"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="46dp"
         android:layout_marginTop="18dp"
         android:hint="@string/prompt_password"
         android:imeActionLabel="@string/action_sign_in_short"
@@ -77,4 +77,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tit_signin"
         />
+    <TextView
+        android:id="@+id/tit_forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/text"
+        android:textSize="14sp"
+        android:text="@string/forgot_pass"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="18dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="246dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="236dp"
+        android:text="@string/register_login"
+
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login" />
 </androidx.constraintlayout.widget.ConstraintLayout>
