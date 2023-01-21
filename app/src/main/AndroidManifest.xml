@@ -19,6 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Connectraida">
         <activity
+            android:name="co.ReviewActivity"
+            android:exported="false" />
+        <activity
             android:name="co.PoolerHomeActivity"
             android:exported="false" />
         <activity
